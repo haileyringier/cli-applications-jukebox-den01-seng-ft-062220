@@ -56,7 +56,6 @@ def run(songs)
 
     if answer == "help"
       help
-    end
   
     elsif answer == "list"
       list(songs)
