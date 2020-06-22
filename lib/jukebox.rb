@@ -58,11 +58,11 @@ def run(songs)
       help
     end
   
-    if answer == "list"
+    elsif answer == "list"
       list(songs)
     end
   
-    if answer == "play"
+   elsif answer == "play"
      play(songs)
     end
    puts "Please enter a command:"
