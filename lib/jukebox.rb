@@ -60,7 +60,6 @@ def run(songs)
   
     elsif answer == "list"
       list(songs)
-    end
   
    elsif answer == "play"
      play(songs)
